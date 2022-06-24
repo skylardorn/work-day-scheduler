@@ -1,0 +1,53 @@
+body {
+    font-family: "Times New Roman";
+    font-size: 16px;
+    line-height: 1;
+    background-color: rgba(153, 94, 5, 0.49);
+  }
+  .container {
+    padding: 300px;
+  }
+  textarea{
+    background: transparent;
+    border: 12px;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+
+.description{
+    white-space: pre-wrap;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #030404;
+    color: white;
+}
+
+.hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 5px solid #000000;
+    border-right: 3px solid #ff6961;
+}
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(9, 186, 205);
+  border-radius: 1;
+  border-bottom: 8px double #ff6961;
+}
